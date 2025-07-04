@@ -115,9 +115,9 @@ export default {
 					'100%': { transform: 'translateY(-100%)' }
 				},
 				'scroll-x': {
-  '0%': { transform: 'translateX(0%)' },
-  '100%': { transform: 'translateX(-100%)' },
-}
+					'0%': { transform: 'translateX(0%)' },
+					'100%': { transform: 'translateX(-100%)' }, // scroll the full width
+				  },
 
 			},
 			animation: {
@@ -127,7 +127,7 @@ export default {
 				'slide-left': 'slide-left 0.5s ease-in-out',
 				'slide-right': 'slide-right 0.5s ease-in-out',
 				'scroll-up': 'scroll-up 20s linear infinite',
-				'scroll-x': 'scroll-x 30s linear infinite',
+				'scroll-x': 'scroll-x 20s linear infinite',
 
 			}
 		}

@@ -196,18 +196,38 @@ const AboutSection = () => {
           </div>
 
           {/* Image Translator / Slider */}
-          <div className="overflow-hidden relative w-full max-w-6xl mx-auto">
-            <div className="whitespace-nowrap animate-scroll-x space-x-10">
-              {["pic1.jpg", "pic2.jpg", "pic3.jpg", "pic4.jpg", "pic5.jpg"].map(
-                (src, idx) => (
-                  <img
-                    key={idx}
-                    src={src}
-                    alt={`slide-${idx}`}
-                    className="inline-block w-64 h-60 object-fill rounded-xl border shadow-md"
-                  />
-                )
-              )}
+          {/* Image Translator / Slider */}
+          <div className="overflow-hidden relative max-w-[2000px] mx-auto">
+            <div className="whitespace-nowrap animate-scroll-x flex gap-6">
+              {[
+                "pic1.jpg",
+                "pic2.jpg",
+                "pic3.jpg",
+                "pic4.jpg",
+                "pic5.jpg",
+                "pic6.jpg",
+                "pic7.jpg",
+                "pic8.jpg",
+                "pic9.jpg",
+                "pic10.jpg",
+                "pic1.jpg",
+                "pic2.jpg",
+                "pic3.jpg",
+                "pic4.jpg",
+                "pic5.jpg",
+                "pic6.jpg",
+                "pic7.jpg",
+                "pic8.jpg",
+                "pic9.jpg",
+                "pic10.jpg",
+              ].map((src, idx) => (
+                <img
+                  key={idx}
+                  src={src}
+                  alt={`slide-${idx}`}
+                  className="h-72 w-auto object-contain rounded-xl border shadow-md"
+                />
+              ))}
             </div>
           </div>
         </div>
