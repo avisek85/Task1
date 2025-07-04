@@ -239,7 +239,7 @@ const AboutSection = () => {
             </h2>
             <p className="text-center text-gray-600 max-w-3xl mx-auto mb-8 text-base md:text-lg">
               Our leadership and technical experts bring decades of geotechnical
-              experience, innovation, and commitment to every project. 
+              experience, innovation, and commitment to every project.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
@@ -267,9 +267,9 @@ const AboutSection = () => {
               {/* Team Member 2 */}
               <div className="bg-white rounded-2xl shadow-xl p-6 flex items-center gap-6">
                 <img
-                  src="chandra.jpg"
+                  src="sir2.jpg"
                   alt="Team Member 2"
-                  className="w-40 h-40 object-cover rounded-xl border shadow-sm"
+                  className="w-50 h-40 object-cover rounded-xl border shadow-sm"
                 />
                 <div>
                   <h3 className="text-xl font-bold text-vge-blue-dark mb-1">
@@ -277,8 +277,7 @@ const AboutSection = () => {
                   </h3>
                   <p className="text-vge-orange font-medium mb-2">Director</p>
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    Expert in rock mechanics and deep foundation engineering
-                    across major projects.
+                    Ph.D., IITD
                   </p>
                 </div>
               </div>
