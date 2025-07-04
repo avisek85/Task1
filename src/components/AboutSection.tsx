@@ -231,6 +231,60 @@ const AboutSection = () => {
             </div>
           </div>
         </div>
+        {/* Meet Our Team Section */}
+        <section className=" bg-gray-50">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-vge-blue-dark text-center mb-1 pt-10">
+              Meet Our People
+            </h2>
+            <p className="text-center text-gray-600 max-w-3xl mx-auto mb-8 text-base md:text-lg">
+              Our leadership and technical experts bring decades of geotechnical
+              experience, innovation, and commitment to every project. 
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+              {/* Team Member 1 */}
+              <div className="bg-white rounded-2xl shadow-xl p-6 flex items-center gap-6">
+                <img
+                  src="chandra.jpg"
+                  alt="Team Member 1"
+                  className="w-40 h-40 object-cover rounded-xl border shadow-sm"
+                />
+                <div>
+                  <h3 className="text-xl font-bold text-vge-blue-dark mb-1">
+                    Dr. Bogireddy Chandra
+                  </h3>
+                  <p className="text-vge-orange font-medium mb-2">
+                    Technical Director
+                  </p>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    C. Eng., A. M.ASCE, G.M.ICE, MIEI, LM.ISET, LM. ISRMTT,
+                    FSIESRP, UN Volunteer, B.Tech., M.Tech.
+                  </p>
+                </div>
+              </div>
+
+              {/* Team Member 2 */}
+              <div className="bg-white rounded-2xl shadow-xl p-6 flex items-center gap-6">
+                <img
+                  src="chandra.jpg"
+                  alt="Team Member 2"
+                  className="w-40 h-40 object-cover rounded-xl border shadow-sm"
+                />
+                <div>
+                  <h3 className="text-xl font-bold text-vge-blue-dark mb-1">
+                    Mr. Polugari Venkateswarlu
+                  </h3>
+                  <p className="text-vge-orange font-medium mb-2">Director</p>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    Expert in rock mechanics and deep foundation engineering
+                    across major projects.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </section>
   );
