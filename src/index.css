@@ -1,0 +1,58 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 7 46% 19%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 33 43% 88%;
+    --secondary-foreground: 33 50% 20%;
+    --muted: 33 43% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 33 43% 88%;
+    --accent-foreground: 33 50% 20%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 33 80% 51%;
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+
+  .hero-gradient {
+    background: linear-gradient(135deg, #071B39 0%, #003366 50%, #3DA9E0 100%);
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, #F08A24, #FF9F40);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .glass-effect {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+}
