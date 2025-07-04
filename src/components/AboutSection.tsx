@@ -19,13 +19,7 @@ const AboutSection = () => {
             engineering purpose. The aim is to conduct filed investigations,
             laboratory testing, Design, and analysis of geotechnical structures.
             To build a bridge between industry requirements and academic
-            opportunity to the engineers of Geotechnical Engineering. Our core
-            services include geomaterial testing (soil and rock) for both index
-            and engineering properties, as well as the detailed design of
-            geotechnical structures. With a strong emphasis on quality, safety,
-            and innovation, our experienced engineering team ensures that every
-            project adheres to the highest standards of geotechnical engineering
-            practice.
+            opportunity to the engineers of Geotechnical Engineering.
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-vge-orange to-vge-orange-light mx-auto mt-6 rounded-full"></div>
         </div>
