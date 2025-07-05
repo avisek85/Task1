@@ -257,11 +257,10 @@ const AboutSection = () => {
                   <p className="text-vge-orange font-medium mb-2">
                     Technical Director
                   </p>
-                  <p className="  mb-2">Chartered Engineer (India)</p>
 
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    A. M.ASCE | G.M.ICE | MIEl | MIGS | LM.ISET | LM. ISRMTT |
-                    FSIESRP
+                    C. Eng.(I) | A. M.ASCE | G.M.ICE | MIEI | MIGS | LM.ISET ||
+                    LM. ISRMTT | FSIESRP
                   </p>
                 </div>
               </div>
