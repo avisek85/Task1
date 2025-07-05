@@ -275,9 +275,9 @@ const AboutSection = () => {
                   <h3 className="text-xl font-bold text-vge-blue-dark mb-1">
                     Mr. Polugari Venkateswarlu
                   </h3>
-                  <p className="text-vge-orange font-medium mb-2">Director</p>
+                  <p className="text-vge-orange font-medium mb-2">Technical Director</p>
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    Ph.D., IITD
+                    (Ph.D. IITD)
                   </p>
                 </div>
               </div>
