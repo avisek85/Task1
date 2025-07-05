@@ -257,9 +257,11 @@ const AboutSection = () => {
                   <p className="text-vge-orange font-medium mb-2">
                     Technical Director
                   </p>
+                  <p className="  mb-2">Chartered Engineer (India)</p>
+
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    C. Eng., A. M.ASCE, G.M.ICE, MIEI, LM.ISET, LM. ISRMTT,
-                    FSIESRP, UN Volunteer, B.Tech., M.Tech.
+                    A. M.ASCE | G.M.ICE | MIEl | MIGS | LM.ISET | LM. ISRMTT |
+                    FSIESRP
                   </p>
                 </div>
               </div>
@@ -275,7 +277,9 @@ const AboutSection = () => {
                   <h3 className="text-xl font-bold text-vge-blue-dark mb-1">
                     Mr. Polugari Venkateswarlu
                   </h3>
-                  <p className="text-vge-orange font-medium mb-2">Technical Director</p>
+                  <p className="text-vge-orange font-medium mb-2">
+                    Technical Director
+                  </p>
                   <p className="text-gray-600 text-sm leading-relaxed">
                     (Ph.D. IITD)
                   </p>
